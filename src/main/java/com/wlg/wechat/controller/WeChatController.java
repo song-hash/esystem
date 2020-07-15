@@ -14,7 +14,7 @@ public class WeChatController {
 
     //需修改为自己的app环境
     public String GETTOKEN = "" +
-            "https://api.weixin.qq.com/sns/oauth2/access_token?appid=ID&secret=应用密钥&code=CODE&grant_type=authorization_code";
+            "https://api.weixin.qq.com/sns/oauth2/access_token?appid=应ID&secret=应用密钥&code=CODE&grant_type=authorization_code";
 
     public String USERINFO = "" +
             "https://api.weixin.qq.com/sns/userinfo?access_token=TOKEN&openid=OPENID";
