@@ -26,6 +26,7 @@ public class WeChatController {
      */
     @RequestMapping("/login")
     public ModelAndView login(){
+
         return new ModelAndView("login");
     }
 
@@ -33,10 +34,10 @@ public class WeChatController {
      * 使用微信通过的js创建二维码登录
      * @return
      */
-    @RequestMapping("/login2")
+    /*@RequestMapping("/login2")
     public ModelAndView login2(){
         return new ModelAndView("login2");
-    }
+    }*/
 
     /**
      * 用户扫描确认登录后的回调执行，此处应对应redirect_uri
